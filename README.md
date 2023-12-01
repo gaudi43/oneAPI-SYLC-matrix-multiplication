@@ -11,7 +11,7 @@
 
 ## 实验环境与准备
   使用英特尔oneAPI Developer Cloud服务，直接利用Developer Cloud平台中的CPU与GPU硬件。<br>
-  根据Intel® DevCloud for oneAPI 账号注册快速指南进行注册
-  启动 Jupyter 服务
-  进入oneAPI_Essentials/02_SYCL_Program_Structure
+  根据Intel® DevCloud for oneAPI 账号注册快速指南进行注册<br>
+  启动 Jupyter 服务<br>
+  进入oneAPI_Essentials/02_SYCL_Program_Structure<br>
 ## 实现过程
