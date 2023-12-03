@@ -15,23 +15,23 @@
   启动 Jupyter 服务<br>
   进入oneAPI_Essentials/02_SYCL_Program_Structure<br>
 ## 实验过程
-先在oneAPI_Essentials/02_SYCL_Program_Structure文件夹下创建一个gaodi.sh文件<br>
+1.先在oneAPI_Essentials/02_SYCL_Program_Structure文件夹下创建一个gaodi.sh文件<br>
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/sh.png)
-在oneAPI_Essentials/02_SYCL_Program_Structure/lab文件夹下创建gaodi.cpp 编写代码<br>
-运行gaodi.cpp<br>
+2.在oneAPI_Essentials/02_SYCL_Program_Structure/lab文件夹下创建gaodi.cpp 编写代码<br>
+3.运行gaodi.cpp<br>
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/run.png)
 
 ## 代码分析
-使用gpu实现矩阵乘法并返回运行时间
+1.使用gpu实现矩阵乘法并返回运行时间
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/gpu_kernel.png)
-使用cpu实现矩阵乘法并返回运行时间
+2.使用cpu实现矩阵乘法并返回运行时间
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/cpu_kernel.png)
-矩阵乘法实现过程
+3.矩阵乘法实现过程
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/matrix-multiplication1.png)
 ![image]([https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/matrix_mutiplication2.png]
-验证
+4.验证
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/verify.png)
-主函数
+5.主函数
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/main.png)
 
 ## 实验结果
