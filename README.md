@@ -37,6 +37,6 @@
 ## 实验结果
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/result.png)
 ## 总结
-
+本文介绍了如何使用Intel® oneAPI DPC++编译器加速矩阵乘法计算。我们使用SYCL编程模型编写了DPC++代码来实现矩阵乘法，并提供了相应的代码示例。通过使用DPC++编译器，我们可以将矩阵乘法计算加速到在CPU、GPU和FPGA等硬件上运行，这对于大规模数据处理具有很大的意义。
 
 
