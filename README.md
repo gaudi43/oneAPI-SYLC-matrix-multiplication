@@ -11,32 +11,44 @@
 
 ## 实验环境与准备
   使用英特尔oneAPI Developer Cloud服务，直接利用Developer Cloud平台中的CPU与GPU硬件。<br>
+  
   根据Intel® DevCloud for oneAPI 账号注册快速指南进行注册<br>
+  
   启动 Jupyter 服务<br>
+  
   进入oneAPI_Essentials/02_SYCL_Program_Structure<br>
+
+  
 ## 实验过程
 1.先在oneAPI_Essentials/02_SYCL_Program_Structure文件夹下创建一个gaodi.sh文件<br>
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/sh.png)
+
 2.在oneAPI_Essentials/02_SYCL_Program_Structure/lab文件夹下创建gaodi.cpp 编写代码<br>
+
 3.运行gaodi.cpp<br>
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/run.png)
 
 ## 代码分析
 1.使用gpu实现矩阵乘法并返回运行时间
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/gpu_kernel.png)
+
 2.使用cpu实现矩阵乘法并返回运行时间
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/cpu_kernel.png)
+
 3.矩阵乘法实现过程
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/matrix-multiplication1.png)
-![image]([https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/matrix_mutiplication2.png]
+![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/matrix-multiplication2.png)
+
 4.验证
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/verify.png)
+
 5.主函数
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/main.png)
 
 ## 实验结果
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/result.png)
+
 ## 总结
-本文介绍了如何使用Intel® oneAPI DPC++编译器加速矩阵乘法计算。我们使用SYCL编程模型编写了DPC++代码来实现矩阵乘法，并提供了相应的代码示例。通过使用DPC++编译器，我们可以将矩阵乘法计算加速到在CPU、GPU和FPGA等硬件上运行，这对于大规模数据处理具有很大的意义。
+本文介绍了如何使用Intel® oneAPI DPC++编译器加速矩阵乘法计算。我们使用SYCL编程模型编写了DPC++代码来实现矩阵乘法，并提供了相应的代码示例。通过使用DPC++编译器，我们可以将矩阵乘法计算加速到在CPU、GPU等硬件上运行，这对于大规模数据处理具有很大的意义。
 
 
