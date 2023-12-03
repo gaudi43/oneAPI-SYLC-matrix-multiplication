@@ -23,11 +23,16 @@
 
 ## 代码分析
 使用gpu实现矩阵乘法并返回运行时间
+![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/gpu_kernel.png)
 使用cpu实现矩阵乘法并返回运行时间
+![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/cpu_kernel.png)
 矩阵乘法实现过程
+![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/matrix_mutiplication1.png)
+![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/matrix_mutiplication2.png)
 验证
+![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/verify.png)
 主函数
-
+![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/main.png)
 ## 总结
 
 
