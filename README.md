@@ -16,4 +16,8 @@
   进入oneAPI_Essentials/02_SYCL_Program_Structure<br>
 ## 实验过程
 先在oneAPI_Essentials/02_SYCL_Program_Structure文件夹下创建一个gaodi.sh文件<br>
+![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/sh.png)
+在oneAPI_Essentials/02_SYCL_Program_Structure/lab文件夹下创建gaodi.cpp 编写代码<br>
+
+
 
