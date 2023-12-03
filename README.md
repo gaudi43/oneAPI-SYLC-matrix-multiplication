@@ -18,6 +18,17 @@
 先在oneAPI_Essentials/02_SYCL_Program_Structure文件夹下创建一个gaodi.sh文件<br>
 ![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/sh.png)
 在oneAPI_Essentials/02_SYCL_Program_Structure/lab文件夹下创建gaodi.cpp 编写代码<br>
+运行gaodi.cpp<br>
+![image](https://github.com/gaudi43/oneAPI-SYLC-matrix-multiplication/blob/main/images/run.png)
+
+## 代码分析
+使用gpu实现矩阵乘法并返回运行时间
+使用cpu实现矩阵乘法并返回运行时间
+矩阵乘法实现过程
+验证
+主函数
+
+## 总结
 
 
 
