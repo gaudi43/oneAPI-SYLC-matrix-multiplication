@@ -14,4 +14,6 @@
   根据Intel® DevCloud for oneAPI 账号注册快速指南进行注册<br>
   启动 Jupyter 服务<br>
   进入oneAPI_Essentials/02_SYCL_Program_Structure<br>
-## 实现过程
+## 实验过程
+先在oneAPI_Essentials/02_SYCL_Program_Structure文件夹下创建一个gaodi.sh文件<br>
+
